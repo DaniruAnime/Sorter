@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "indentation": {
+      "indentationSize": 2,
+      "useTabs": false
+    },
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    },
+    "namingRules": {
+      "tupleElementNameCasing": "camelCase",
+      "allowedHungarianPrefixes": []
+    },
+    "orderingRules": {
+      "usingDirectivesPlacement": "outsideNamespace",
+      "blankLinesBetweenUsingGroups": "allow",
+      "systemUsingDirectivesFirst": true
+    },
+    "documentationRules": {
+      "documentExposedElements": true,
+      "documentInternalElements": false,
+      "documentPrivateElements": false,
+      "documentInterfaces": true,
+      "documentPrivateFields": false,
+      "fileNamingConvention": "stylecop",
+      "companyName": "Placeholder",
+      "copyrightText": "Placeholder"
+    },
+    "readabilityRules": {
+      "allowBuiltInTypeAliases": true
+    },
+    "maintainabilityRules": {
+      "topLevelTypes": [
+        "class",
+        "interface",
+        "enum",
+        "struct",
+        "delegate"
+      ]
+    }
+  },
+  "ruleActions": {
+    "SA0001": "None",
+    "SA1101": "None",
+    "SA1200": "None",
+    "SA1309": "None",
+    "SA1633": "None",
+
+    "SA1005": "Warning",
+    "SA1027": "Error",
+    "SA1028": "Warning",
+    "SA1123": "Warning",
+    "SA1137": "Warning",
+    "SA1208": "Warning",
+    "SA1209": "Warning",
+    "SA1210": "Warning",
+    "SA1211": "Warning",
+    "SA1300": "Warning",
+    "SA1306": "Warning",
+    "SA1307": "Warning",
+    "SA1312": "Warning",
+    "SA1313": "Warning",
+    "SA1400": "Warning",
+    "SA1401": "Warning",
+    "SA1502": "Warning",
+    "SA1505": "Warning",
+    "SA1507": "Warning",
+    "SA1508": "Warning",
+    "SA1516": "Warning"
+  }
+}
