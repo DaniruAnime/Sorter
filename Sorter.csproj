@@ -3,6 +3,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
+    <RuntimeIdentifiers>win</RuntimeIdentifiers>
     <AssemblyName>Sorter</AssemblyName>
     <RootNamespace>Sorter</RootNamespace>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
